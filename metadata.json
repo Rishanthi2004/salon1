@@ -1,0 +1,8 @@
+{
+  "name": "Rishaara Salon - Luxury Unisex Salon",
+  "description": "Premium unisex salon in an editorial setting offering bespoke hair, skincare, nail, men's grooming, and bridal artistry.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
