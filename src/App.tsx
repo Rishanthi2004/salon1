@@ -10,7 +10,6 @@ import { Hero } from './components/Hero';
 import { AboutSection } from './components/AboutSection';
 import { ServicesSection } from './components/ServicesSection';
 import { FeaturedSection } from './components/FeaturedSection';
-import { WhyChooseSection } from './components/WhyChooseSection';
 import { ExperienceGallery } from './components/ExperienceGallery';
 import { BridalSection } from './components/BridalSection';
 import { BookingSection } from './components/BookingSection';
@@ -80,8 +79,6 @@ export default function App() {
           onBookService={(cat, svc) => scrollToBooking(cat, svc)}
         />
 
-        {/* Why Choose Rishaara Salon */}
-        <WhyChooseSection />
 
         {/* Dedicated Bridal Beauty Section */}
         <BridalSection

@@ -539,35 +539,3 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   }
 ];
 
-export const WHY_CHOOSE_PILLARS = [
-  {
-    number: "01",
-    title: "Experienced Beauty Professionals",
-    description: "Our master stylists, colorists, and estheticians bring years of international salon training and continuous runway education."
-  },
-  {
-    number: "02",
-    title: "Personalised Service",
-    description: "Every appointment begins with an in-depth consultation respecting your hair anatomy, skin needs, face shape, and lifestyle."
-  },
-  {
-    number: "03",
-    title: "Premium Salon Products",
-    description: "We work exclusively with leading European and Japanese botanical lines, ammonia-free pigments, and clinical-grade actives."
-  },
-  {
-    number: "04",
-    title: "Modern Techniques",
-    description: "From nanoplastia smoothing and precision shears to gentle ultrasonic extractions, we use the finest refined methods."
-  },
-  {
-    number: "05",
-    title: "Hygienic Treatment Spaces",
-    description: "Medical-grade autoclave sterilization for tools, single-use linens, and immaculate private suites ensuring pristine comfort."
-  },
-  {
-    number: "06",
-    title: "Services for Men & Women",
-    description: "A truly inclusive luxury salon with specialized departments tailored with equal mastery for discerning men and women."
-  }
-];
