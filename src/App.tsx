@@ -9,9 +9,8 @@ import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { AboutSection } from './components/AboutSection';
 import { ServicesSection } from './components/ServicesSection';
-import { FeaturedSection } from './components/FeaturedSection';
+import { MovingMarquee } from './components/MovingMarquee';
 import { ExperienceGallery } from './components/ExperienceGallery';
-import { BridalSection } from './components/BridalSection';
 import { BookingSection } from './components/BookingSection';
 import { ContactSection } from './components/ContactSection';
 import { Footer } from './components/Footer';
@@ -56,22 +55,12 @@ export default function App() {
           onBookClick={() => scrollToBooking()}
         />
 
+        {/* Moving Luxury Runway Ribbon Banner */}
+        <MovingMarquee />
+
         {/* About Section */}
         <AboutSection
           onExploreServices={() => scrollToSection('#services')}
-        />
-
-        {/* Featured Signature Services */}
-        <FeaturedSection
-          onSelectFeature={(target) => {
-            if (target === 'hair') scrollToSection('#hair-services');
-            else if (target === 'skin') scrollToSection('#skin-services');
-            else if (target === 'nails') scrollToSection('#nail-services');
-            else if (target === 'grooming') scrollToSection('#hair-services');
-            else if (target === 'bridal') scrollToSection('#bridal-services');
-            else scrollToSection('#services');
-          }}
-          onBookFeature={(title) => scrollToBooking(title)}
         />
 
         {/* Full Services Repertoire */}
@@ -79,11 +68,8 @@ export default function App() {
           onBookService={(cat, svc) => scrollToBooking(cat, svc)}
         />
 
-
-        {/* Dedicated Bridal Beauty Section */}
-        <BridalSection
-          onEnquireBridal={() => scrollToBooking('Bridal & Occasion Beauty', 'Bridal Makeup')}
-        />
+        {/* Moving Luxury Runway Ribbon Banner Between Repertoire & Experience */}
+        <MovingMarquee />
 
         {/* Visual Storytelling Gallery */}
         <ExperienceGallery />

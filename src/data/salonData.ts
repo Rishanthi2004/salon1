@@ -448,7 +448,7 @@ export const FEATURED_SERVICES = [
     id: "feat-1",
     title: "Signature Hair Transformations",
     category: "Coiffure Couture",
-    description: "From dull or damaged locks to rich, multidimensional color and fluid architectural movement. Hand-tailored formulations.",
+    description: "Multidimensional color, architectural shear cuts, and fluid glossy movement tailored to your silhouette.",
     image: hairStylingImg,
     actionLabel: "Explore Hair",
     targetCategory: "hair"
@@ -457,34 +457,16 @@ export const FEATURED_SERVICES = [
     id: "feat-2",
     title: "Radiant Skin Treatments",
     category: "Esthétique Pure",
-    description: "Deep cellular detoxification, micro-infusions, and clinical facial therapies designed for long-lasting healthy radiance.",
+    description: "Dermatological micro-infusions and clinical facial therapies designed for luminous, long-lasting vitality.",
     image: skincareImg,
     actionLabel: "Explore Skin",
     targetCategory: "skin"
   },
   {
     id: "feat-3",
-    title: "Luxury Nail Care",
-    category: "Haute Manicure",
-    description: "Artisanal hand therapies, soft-gel extensions, and understated minimalist nail artistry crafted with medical-grade hygiene.",
-    image: heroSalonImg,
-    actionLabel: "Explore Nails",
-    targetCategory: "nails"
-  },
-  {
-    id: "feat-4",
-    title: "Men's Grooming Experience",
-    category: "The Gentleman's Lounge",
-    description: "Precision shear cuts, hot towel straight-razor rituals, beard sculpts, and revitalising scalp therapies in private comfort.",
-    image: mensGroomingImg,
-    actionLabel: "Explore Grooming",
-    targetCategory: "grooming"
-  },
-  {
-    id: "feat-5",
-    title: "Bridal Makeover",
+    title: "Bridal & Occasion Makeover",
     category: "Regal Elegance",
-    description: "Flawless HD airbrush makeup, couture bridal updos, saree draping, and pre-wedding bridal pampering for your grand celebration.",
+    description: "Flawless HD airbrush artistry, royal hair sculpting, and ceremonial styling for your most unforgettable day.",
     image: bridalImg,
     actionLabel: "Explore Bridal",
     targetCategory: "bridal"
